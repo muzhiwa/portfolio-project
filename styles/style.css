@@ -1,8 +1,59 @@
-h1 {
-font-family: "Crimson Pro", serif;
-font-weight: 600;
-}
-h2 {
-    font-family: "Prata", serif;
-    font-weight: 600;
-}
+:root {
+    --primay-color: #ec729c;
+    --secondary-color: hwb(0 90% 2%);
+    --heading-font-family: "Crimson Pro", serif;
+    --default-font-family: "Prata", serif;
+  }
+  
+  body {
+    font-family: var(--default-font-family);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 96px;
+  }
+  
+  p {
+    font-weight: normal;
+  }
+  
+  .hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+  }
+  
+  .hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+  }
+  
+  .hero h2 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+  }
+  
+  .btn-branding {
+    background: var(--primay-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
