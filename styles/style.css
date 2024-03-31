@@ -1,60 +1,98 @@
 :root {
-    --primay-color: #ec729c;
-    --secondary-color: hwb(0 90% 2%);
-    --heading-font-family: "Crimson Pro", serif;
-    --default-font-family: "Prata", serif;
-  }
+  --primary-color: #ec729c;
+  --secondary-color: hwb(0 90% 2%);
+  --heading-font-family: "Crimson Pro", serif;
+  --default-font-family: "Prata", serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h2 {
+  font-size: 70px;
+  margin: 0;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.btn-branding-outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
   
-  body {
-    font-family: var(--default-font-family);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: black;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-  }
-  
+
+@media (max-width: 900px) {
   h1 {
-    font-size: 96px;
-    margin: 0;
-  }
-  
-  p {
-    font-weight: normal;
-  }
-  
-  .hero {
-    background: var(--secondary-color);
-    text-align: center;
-    padding: 160px 20px;
-  }
-  
-  .hero p {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    color: #272142;
-  }
-  
-  .hero h2 {
-    font-family: var(--heading-font-family);
-    font-weight: normal;
+    font-size: 44px;
     line-height: 2;
-    font-size: 24px;
   }
-  
-  .btn-branding {
-    background: var(--primay-color);
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    line-height: 27px;
-    padding: 15px 30px;
+  h2 {
+    font-size: 44px;
   }
+  .hero {
+    padding: 80px 20px;
+  }
+ .container p {
+  font-size: 14px;
+}
+ .container h2 {
+  font-size: 34px;
+}
+}
