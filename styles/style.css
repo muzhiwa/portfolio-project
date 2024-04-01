@@ -86,7 +86,7 @@ p {
   font-family: var(--default-font-family);
 }
 .content-container p {
-  font-size: 18px;
+  font-size: 16px;
 }
 .content-container h3 {
   font-size: 24px;
