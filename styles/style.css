@@ -76,20 +76,27 @@ p {
   padding: 15px 30px;
   text-decoration: none;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 70px;
   line-height: 90px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 20px;
   font-family: var(--default-font-family);
 }
-
-.about-section-content {
+.content-container p {
+  font-size: 18px;
+}
+.content-container h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content {
   margin: 30px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 .muzhda {
@@ -115,6 +122,10 @@ p {
   }
  .container h2 {
   font-size: 34px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
   }
  .about-section {
   text-align: center;
