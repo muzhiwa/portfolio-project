@@ -192,8 +192,9 @@ footer .social-links a:hover {
     font-size: 18px;
   }
   .muzhda {
-    border-radius: 10px;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 270px;
+    display: block;
+    margin: 0 auto;
   }
 }
