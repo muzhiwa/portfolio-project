@@ -191,4 +191,8 @@ footer .social-links a:hover {
   footer .email-link {
     font-size: 18px;
   }
+  .muzhda {
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 300px;
 }
